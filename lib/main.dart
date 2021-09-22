@@ -84,16 +84,16 @@ Widget ultimosAlbuns() {
   return Column(
     children: [
       Row(children: [
-        miniAlbum("albuns/teste1.jpeg", "Arnaldo Antunes"),
-        miniAlbum("albuns/teste2.jpeg", " Ao Vivo No\n Estúdio (Deluxe)")
+        miniAlbum("albuns/arnaldo.jpg", "Arnaldo Antunes"),
+        miniAlbum("albuns/aovivo.jpg", " Ao Vivo No\n Estúdio (Deluxe)")
       ]),
       Row(children: [
-        miniAlbum("albuns/teste1.jpeg", "Tuyo"),
-        miniAlbum("albuns/teste2.jpeg", " As 50 mais\n tocadas no Brasil")
+        miniAlbum("albuns/tuyo.jpg", "Tuyo"),
+        miniAlbum("albuns/50.jpg", " As 50 mais\n tocadas no Brasil")
       ]),
       Row(children: [
-        miniAlbum("albuns/teste1.jpeg", " Famous\n Last Words (Records)"),
-        miniAlbum("albuns/teste2.jpeg", "Drama")
+        miniAlbum("albuns/famous.jpg", " Famous\n Last Words (Records)"),
+        miniAlbum("albuns/drama.jpg", "Drama")
       ]),
     ],
   );
@@ -107,7 +107,7 @@ Widget lancamentos() {
           children: [
             ClipRRect(
                 child: Image(
-                  image: AssetImage("albuns/teste1.jpeg"),
+                  image: AssetImage("albuns/metallica.jpg"),
                   width: 50,
                 ),
                 borderRadius: BorderRadius.only(
@@ -139,7 +139,8 @@ Widget lancamentos() {
             children: [
               ClipRRect(
                   child: Image(
-                      image: AssetImage("albuns/teste1.jpeg"), width: 110),
+                      image: AssetImage("albuns/metallicalanc.jpg"),
+                      width: 110),
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(4),
                       bottomLeft: Radius.circular(4))),
@@ -235,7 +236,7 @@ Widget perfil() {
           margin: EdgeInsets.all(5),
         )),
         ClipRRect(
-            child: Image(image: AssetImage("albuns/teste1.jpeg"), width: 130),
+            child: Image(image: AssetImage("albuns/profile.jpg"), width: 130),
             borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(4), bottomLeft: Radius.circular(4))),
       ],

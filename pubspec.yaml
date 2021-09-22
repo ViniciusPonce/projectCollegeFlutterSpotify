@@ -48,6 +48,16 @@ flutter:
   assets:
     - assets/albuns/teste1.jpeg
     - assets/albuns/teste2.jpeg
+    - assets/albuns/profile.jpg
+    - assets/albuns/50.jpg
+    - assets/albuns/aovivo.jpg
+    - assets/albuns/arnaldo.jpg
+    - assets/albuns/drama.jpg
+    - assets/albuns/famous.jpg
+    - assets/albuns/tuyo.jpg
+    - assets/albuns/metallica.jpg
+    - assets/albuns/metallicalanc.jpg
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
